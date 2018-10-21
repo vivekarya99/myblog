@@ -10,20 +10,20 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger focus" >About</a>
+      <li class="nav-item" >
+        <a class="nav-link js-scroll-trigger focus" [routerLink]="['/']">About</a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/experience']">Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" >Experience</a>
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/education']">Education</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" >Education</a>
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/skills']">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" >Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" >Interests</a>
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/interests']">Interests</a>
       </li>
     </ul>
   </div>
