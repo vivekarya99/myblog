@@ -15,7 +15,7 @@ const app=express();
 
 const blog=require('./routes/api');
 
-const port=3000;
+const port=process.env.PORT || 8000;
 
 //CORS Middleware
 app.use(cors());
