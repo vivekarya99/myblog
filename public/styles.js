@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/meet-cric/Desktop/WorkSpace/myblog/angular-src/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! /home/meet-cric/Desktop/myblog/angular-src/src/styles.css */"./src/styles.css");
 
 
 /***/ })
