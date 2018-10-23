@@ -4,18 +4,22 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "ng": "ng",
     "start": "node app.js",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod"
+    "e2e": "ng e2e"
   },
   "dependencies": {
     "express": "*",
     "mongoose": "*",
     "cors": "*",
     "body-parser": "*"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
   },
   "author": "",
   "license": "ISC"
